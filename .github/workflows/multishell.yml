@@ -1,0 +1,11 @@
+name: first worflow in GH actions
+on: workflow_dispatch
+jobs:
+  Hifirst:
+    runs-on: ubuntu-latest
+    steps:
+      - name: excute first worflow
+        run: |
+          echo "im first line"
+          echo "im second line"
+          
